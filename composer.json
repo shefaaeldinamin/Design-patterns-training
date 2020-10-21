@@ -1,0 +1,21 @@
+{
+    "name": "shefaa/design-patterns-course",
+    "description": "code examples for design patterns in php course",
+    "authors": [
+        {
+            "name": "Shefaa El Din",
+            "email": "shefaaeldinamin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational/",
+            "Structural\\": "Structural",
+            "Behavioral\\": "Behavioral",
+            "Tests\\": "Tests"
+        }
+    }
+}
